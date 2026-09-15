@@ -1,0 +1,127 @@
+body{  
+  background-image: url('images (1).jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#container-primary{
+    width:1000px;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 2px solid rgb(10, 10, 39); 
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+}
+#linea{
+  width:300px;
+  height:10px;
+  left:310px;
+  right:0;
+  top:0;
+  bottom:160px;
+  margin:auto;
+  position:absolute;
+  align-items:center;
+  justify-content: center;
+  font-size:100px;
+  font-weight: 100px;
+  color:black;
+}
+#linea2{
+  width:300px;
+  height:10px;
+  left:0px;
+  right:350px;
+  top:0;
+  bottom:160px;
+  margin:auto;
+  position:absolute;
+  font-size:100px;
+  color:black;
+}
+#container-secondary1{
+  width:500px;
+  height:100px;
+  background-color:none;
+  border-radius:10px;
+  left:0;
+  right:239px;
+  top:0;
+  bottom:150px;
+  margin:auto;
+  position:absolute;
+  display:flex;
+  gap:120px;
+  z-index:2;
+}
+#container-secondary2{
+  width:500px;
+  height:100px;
+  background-color:none;
+  border-radius:10px;
+  right:239px;
+  left:0;
+  top:150px;
+  bottom:0;
+  margin:auto;
+  position:absolute;
+  display:flex;
+  gap:120px; 
+  z-index: 2;
+}
+
+#operation{
+    width:90px;
+    height:50px;
+    left:0;
+    right:205px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+    z-index: 10;
+}
+#calculate{
+    width:165px;
+    height:50px;
+    left:0;
+    right:200px;
+    top:310px;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+}
+#equal{
+  width:200px;
+  height:170px;
+  left:700px;
+  right:0px;
+  top:40px;
+  bottom:0px;
+  position:absolute;
+  margin:auto;
+  background-color:none;
+  font-size:30px;
+  border-radius: 20px;
+}
+#igual{
+  width:100px;
+  height:100px;
+  left:470px;
+  right:0px;
+  top:0px;
+  bottom:12px;
+  margin:auto;
+  position:absolute;
+  font-size:70px;
+  color:black;
+}
